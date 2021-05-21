@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio | Mateus Umbelino</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="data/css/dark_portfolio.css">
+<link rel="stylesheet" href="data/css/custom.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="icon" 
+      type="image/png" 
+      href="data/imgs/favicon.png">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="data/imgs/avatar_smoke.jpg" style="width:100%"> -->
+  <video autoplay muted loop id="videoLogo">
+    <source src="data/imgs/videos/logo.mp4" type="video/mp4">
+  </video>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fas fa-briefcase w3-xxlarge"></i>
+    <p>RECENT WORK</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fas fa-file-alt w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">RECENT WORK</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+    
+    <video autoplay muted loop id="homeBG">
+        <source src="data/imgs/videos/bg.mp4" type="video/mp4">
+    </video>
+    
+    <div class="header-text">
+        <h1 class="w3-jumbo">Full-stack Developer & Digital Artist</h1>
+        <p>Creating appealing websites, applications and games</p>
+    </div>
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    
+    <div class="about-container">
+    
+        <div class="about-half skills-container">
+            <h4 class="w3-wide skill-cat">Full-Stack Development</h4>
+
+            <div class="sub-skills-container">
+              <div class="w3-half">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>SASS</p>
+                <p>JavaScript</p>
+                <p>TypeScript</p>
+              </div>
+              <div class="w3-half">
+                <p>C++ / C#</p>
+                <p>Laravel</p>
+                <p>PHP</p>
+                <p>Git</p>
+                <p>SQL</p>
+              </div>
+            </div>
+
+            <h4 class="w3-wide skill-cat">Digital Artist</h4>
+
+            <div class="sub-skills-container">
+              <div class="w3-half">
+                <p>GIMP</p>
+                <p>Adobe Photoshop</p>
+                <p>Krita</p>
+                <p>Vegas Pro</p>
+                <p>Adobe Premiere</p>
+              </div>
+              <div class="w3-half">
+                <p>Blender</p>
+                <p>Unity</p>
+                <p>Unreal Engine 4</p>
+                <p>Processing</p>
+                <p>Game Design</p>
+              </div>
+            </div>
+            
+        </div>
+
+        <div class="about-half">
+            <h2 class="w3-text-light-grey">Hello! I'm Mateus Umbelino.</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        
+            <div class="button-container">
+              <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <i class="fa fa-download"></i> See My Resume
+              </button>
+            </div>
+        </div>
+
+    </div>
+    
+    <!--
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+    -->
+    
+    <!-- Testimonials
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="data/imgs/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="data/imgs/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p> -->
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-content" id="portfolio">
+    <h2 class="w3-text-light-grey">My Recent Work</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">    
+        
+        <div class="portfolio-item">
+            <img src="data/imgs/projects/contadr.jpg" style="width:100%">
+            <div class="portfolio-content">
+                <h4>Conta Dr.</h4>
+                <p>Roles: Lead Developer</p>
+                <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+                <img src="data/imgs/logos/verticis.png">
+                <p>2021</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="data/imgs/projects/plaft.jpg" style="width:100%">
+          <div class="portfolio-content">
+              <h4>Centro Educacional Plaft</h4>
+              <p>Roles: Lead Developer</p>
+              <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+              <img src="data/imgs/logos/verticis.png">
+              <p>2021</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <video autoplay muted loop>
+            <source src="data/imgs/projects/day.mp4" type="video/mp4">
+          </video>  
+            <div class="portfolio-content day">
+                <h4>Dreaming About You</h4>
+                <p>Roles: Lead Developer</p>
+                <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+                <img src="data/imgs/logos/ufmg.png">
+                <p>2021</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <video autoplay muted loop>
+              <source src="data/imgs/projects/rainbowRain.mp4" type="video/mp4">
+            </video>  
+            <div class="portfolio-content video">
+                <h4>Rainbow Rain</h4>
+                <p>Solo Project</p>
+                <p>An interactive game using fractal trees and particles made with P5.JS</p>
+                <img src="data/imgs/logos/ufmg.png">
+                <p>2018</p>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="w3-half">
+        
+        <div class="portfolio-item">
+            <img src="data/imgs/projects/hob.jpg" style="width:100%">
+            <div class="portfolio-content">
+                <h4>HOB - Hub of Business</h4>
+                <p>Roles: Lead Developer</p>
+                <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+                <img src="data/imgs/logos/verticis.png">
+                <p>2021</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="data/imgs/projects/verde.jpg" style="width:100%">
+          <div class="portfolio-content">
+              <h4>Verde Investors</h4>
+              <p>Roles: Lead Developer</p>
+              <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+              <img src="data/imgs/logos/verticis.png">
+              <p>2020</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <video autoplay muted loop>
+            <source src="data/imgs/projects/avatura.mp4" type="video/mp4">
+          </video>  
+            <div class="portfolio-content video">
+                <h4>Avatura</h4>
+                <p>Roles: Director, Lead Programmer</p>
+                <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+                <img src="data/imgs/logos/ufmg.png">
+                <p>2021</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="data/imgs/projects/teknisa.jpg" style="width:100%">
+            <div class="portfolio-content">
+                <h4>Pebbian ERP</h4>
+                <p>Roles: Fullstack Development Intern</p>
+                <p>Project Description Lorem Ispum Dolor Sit Amet</p>
+                <img src="data/imgs/logos/teknisa.png">
+                <p>2017 - 2019</p>
+            </div>
+        </div>
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="contact-container">
+        <div class="half-contact">
+            <p><i class="fa fa-map-marker-alt fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Belo Horizonte, Brazil</p>
+            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +55 (31) 98693-9469</p>
+        </div>
+
+        <div class="half-contact">
+            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mateusumbelino7@gmail.com</p>
+            <p><i class="fab fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> LinkedIn </p>
+        </div>
+    </div>
+
+    <p class="copyright">© 2021 Mateus Umbelino</p>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer 
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
