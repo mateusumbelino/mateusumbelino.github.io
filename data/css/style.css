@@ -1,7 +1,3 @@
-a.home-button:hover {
-  background: #639;
-}
-
 h1, h2, h3, h4, h5 {
   color: #663399 !important;
 }
@@ -59,24 +55,6 @@ header#home {
   justify-content: center;
 }
 
-.button-container {
-  width: 100%;
-}
-
-.about-half.skills-container {
-  padding-right: 75px;
-}
-
-.w3-half.right {
-  padding-left: 25px;
-}
-
-.separator .w3-half {
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-  border-bottom: 1px dashed;
-}
-
 .portfolio-item img {
   border-radius: 5px;
 }
@@ -89,25 +67,15 @@ header#home {
 
 .portfolio-content {
   opacity: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   position: relative;
+  min-height: 302px;
   padding-top: 1px;
-  padding-left: 25px;
-  padding-right: 25px;
   margin-top: -65%;
   margin-bottom: 12px;
   background: #000000c7;
   text-align: center;
-  min-height: 302px;
-  max-height: 302px;
   -webkit-transition: opacity 0.5s linear;
   transition: opacity 0.5s linear;
-}
-
-.portfolio-content p {
-  width: 100%;
 }
 
 .portfolio-content.day {
@@ -135,16 +103,12 @@ header#home {
 
 .portfolio-content img {
   margin-top: 15px;
-  max-height: 50px;
-  border-radius: 10px !important;
+  max-height: 75px;
+  border-radius: 25px !important;
 }
 
 .portfolio-content p {
   margin: 0;
-}
-
-.portfolio-content p.smaller {
-  font-size: 12px;
 }
 
 div#contact {
@@ -170,25 +134,4 @@ div#contact {
   width: 50%;
 }
 
-/* CUSTOM SCROLLBAR */
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #3b3b3b;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-/*# sourceMappingURL=custom.css.map */
+/*# sourceMappingURL=style.css.map */
