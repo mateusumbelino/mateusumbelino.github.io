@@ -57,6 +57,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+  </div>
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
   </div>
@@ -87,14 +89,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
             <h4 class="w3-wide skill-cat">Full-Stack Development</h4>
 
             <div class="sub-skills-container separator">
-              <div class="w3-half">
+              <div class="skills-half">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>SASS</p>
                 <p>JavaScript</p>
                 <p>TypeScript</p>
               </div>
-              <div class="w3-half right">
+              <div class="skills-half right">
                 <p>C++ / C#</p>
                 <p>Laravel</p>
                 <p>PHP</p>
@@ -106,14 +108,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
             <h4 class="w3-wide skill-cat">Digital Artist</h4>
 
             <div class="sub-skills-container">
-              <div class="w3-half">
+              <div class="skills-half">
                 <p>GIMP</p>
                 <p>Adobe Photoshop</p>
                 <p>Krita</p>
                 <p>Vegas Pro</p>
                 <p>Adobe Premiere</p>
               </div>
-              <div class="w3-half right">
+              <div class="skills-half right">
                 <p>Blender</p>
                 <p>Unity</p>
                 <p>Unreal Engine 4</p>
@@ -184,18 +186,16 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content" id="portfolio">
     <h2 class="w3-text-light-grey">Some of my Projects</h2>
     <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">    
-        
+    
+    <div class="portfolio-container">
+      
+      <div class="portfolio-half">    
         <div class="portfolio-item">
             <img src="data/imgs/projects/contadr.jpg" style="width:100%">
             <div class="portfolio-content">
                 <h4>Conta Dr.</h4>
                 <p>Roles: Lead Developer</p>
                 <p>Project Description Lorem Ispum Dolor Sit Amet</p>
-                <img src="data/imgs/logos/verticis.png">
                 <div class="button-container">
                   <a class="w3-button w3-light-grey w3-padding-large w3-section" href="https://contadr.com.br/" target="_blank">
                     Visit Website
@@ -210,8 +210,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
           <div class="portfolio-content">
               <h4>Centro Educacional Plaft</h4>
               <p>Roles: Lead Developer</p>
-              <p>Project Description Lorem Ispum Dolor Sit Amet</p>
-              <img src="data/imgs/logos/verticis.png">              
+              <p>Project Description Lorem Ispum Dolor Sit Amet</p>            
               <div class="button-container">
                 <a class="w3-button w3-light-grey w3-padding-large w3-section" href="http://ceplaft.com/" target="_blank">
                   Visit Website
@@ -225,11 +224,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
           <video autoplay muted loop>
             <source src="data/imgs/projects/day.mp4" type="video/mp4">
           </video>  
-            <div class="portfolio-content day">
+            <div class="portfolio-content video">
                 <h4>Dreaming About You</h4>
                 <p>Roles: Art Director, Level Designer</p>
                 <p>A 3D Platforming game where you explore and solve puzzles inside a dream</p>
-                <img src="data/imgs/logos/ufmg.png">
                 <div class="button-container">
                   <a class="w3-button w3-light-grey w3-padding-large w3-section" href="http://ceplaft.com/" target="_blank">
                     View on Youtube
@@ -247,14 +245,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <h4>Rainbow Rain</h4>
                 <p>Solo Project</p>
                 <p>An interactive experience where you create your own fractal trees with colored rain</p>
-                <img src="data/imgs/logos/ufmg.png">
                 <p>2018</p>
             </div>
         </div>
 
       </div>
 
-      <div class="w3-half">
+      <div class="portfolio-half">
         
         <div class="portfolio-item">
             <img src="data/imgs/projects/hob.jpg" style="width:100%">
@@ -262,7 +259,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <h4>HOB - Hub of Business</h4>
                 <p>Roles: Lead Developer</p>
                 <p>Project Description Lorem Ispum Dolor Sit Amet</p>
-                <img src="data/imgs/logos/verticis.png">
                 <p>2021</p>
             </div>
         </div>
@@ -273,7 +269,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
               <h4>Verde Investors</h4>
               <p>Roles: Lead Developer</p>
               <p>Project Description Lorem Ispum Dolor Sit Amet</p>
-              <img src="data/imgs/logos/verticis.png">
               <div class="button-container">
                 <a class="w3-button w3-light-grey w3-padding-large w3-section" href="https://investor.verde.ag/" target="_blank">
                   Visit Website
@@ -291,7 +286,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <h4>Avatura</h4>
                 <p>Roles: Director, Lead Programmer</p>
                 <p class="smaller">An interactive website where you create a creature using various body parts made by different artists</p>
-                <img src="data/imgs/logos/ufmg.png">
                 <div class="button-container">
                   <a class="w3-button w3-light-grey w3-padding-large w3-section" href="http://mateusumbelino.github.io/avatura" target="_blank">
                     Visit Website
@@ -307,14 +301,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <h4>Pebbian ERP</h4>
                 <p>Roles: Full-stack Development Intern</p>
                 <p>A complete Enterprise-oriented system for industrial business management</p>
-                <img src="data/imgs/logos/teknisa.png">
                 <p>2017 - 2019</p>
             </div>
         </div>
 
       </div>
-    <!-- End photo grid -->
+
     </div>
+
   <!-- End Portfolio Section -->
   </div>
 
