@@ -199,6 +199,21 @@ div#contact {
 
 #contact .contact-container .half-contact {
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half-contact a {
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.half-contact a:hover,
+.half-contact a:hover i {
+    color: #663399;
 }
 
 /* CUSTOM SCROLLBAR */
