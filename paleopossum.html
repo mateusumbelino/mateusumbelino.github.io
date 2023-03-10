@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio | Mateus Umbelino</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="data/css/dark_portfolio.css">
+<link rel="stylesheet" href="data/css/custom.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="icon" 
+      type="image/png" 
+      href="data/imgs/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="data/imgs/avatar_smoke.jpg" style="width:100%"> -->
+  <!-- 
+    <video autoplay muted loop id="videoLogo">
+    <source src="data/imgs/videos/logo.mp4" type="video/mp4">
+  </video> 
+  -->
+  <img class="opossum-logo" src="data/imgs/opossumlogo-white.png">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large home-button w3-black">
+    <i class="fas fa-arrow-left w3-xxlarge"></i>
+    <p>RETURN</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="index.html#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="index.html#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+  </div>
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="data/cv.pdf" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+    
+    <img class="opossum-square" src="data/imgs/opossumsquare.png" />
+    <img class="opossum-line" src="data/imgs/opossum-line.png" />
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    
+    <div class="keratina-container">
+
+      <div class="keratina-half hide-in-mobile">
+        <img class="keratina-bg" src="data/imgs/keratina-bg.png">
+      </div>
+
+      <div class="keratina-half right">
+        
+        <div class="keratina-half-title">
+          <h2 class="w3-text-light-grey">Keratina</h2>
+          <hr class="w3-opacity">
+        </div>
+
+        <p>Você acorda assim que uma torneira enche o seu peito de seiva. Galhos saem por todos os lados, levantando as ruínas de um prédio até em cima das nuvens, com você no topo. 
+          Você está sem cabeça e sem mãos, e precisa seguir em frente para descobrir quem é você, e qual o seu propósito.
+
+          <br><br>
+
+          Keratina é um dos meus primeiros projetos que não está diretamente atrelado a faculdade ou outra instituição, sendo desenvolvido em meu tempo livre. 
+          
+          <br><br>
+
+          Plataforma: Windows<br>
+          Gênero: Plataforma / Aventura<br>
+          Idiomas: Português (Por enquanto)<br>
+          Tempo de Jogo: ??? (Eu realmente não sei ainda)<br>
+          <br>
+
+        </p>
+    
+        <div class="button-container">
+          <p>Versão mais recente: ALPHA V0.03</p> <br>
+          <a class="w3-button w3-light-grey w3-padding-large w3-section" target="_blank" href="data/cv.pdf">
+            <i class="fa fa-download"></i> Download
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="keratuga-container">
+        <img src="data/imgs/keratuga.jpg">
+      </div>
+
+  </div>
+</div>
+  
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey opossum" id="contact">
+    <h2 class="w3-text-light-grey">Feedback</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>Seu feedback é muito importante!</p>
+
+    <div class="contact-container">
+      
+      <div class="half-contact">
+            <a href="mailto:mateusumbelino7@gmail.com"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mateusumbelino7@gmail.com</a>
+        </div>
+
+        <div class="half-contact">
+        </div>
+    </div>
+
+    <p class="copyright">© 2021 Mateus Umbelino</p>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer 
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

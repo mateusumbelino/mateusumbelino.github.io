@@ -2,6 +2,21 @@ body {
   overflow-x: hidden;
 }
 
+img.opossum-logo {
+  max-width: -webkit-fill-available;
+  padding: 8px;
+}
+
+img.opossum-square {
+  max-width: 25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+img.opossum-line {
+  width: 100%;
+}
+
 .w3-jumbo {
   font-size: 48px !important;
 }
@@ -52,19 +67,72 @@ header#home {
   font-weight: 600;
 }
 
-.about-container {
+.about-container,
+.keratina-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.about-container .about-half {
+.about-container .about-half,
+.keratina-container .keratina-half {
   width: 50%;
 }
 
-.about-container .about-half .button-container {
+.keratina-container .keratina-half .keratina-bg {
+  width: 35rem;
+}
+
+.keratuga-container {
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
+}
+
+.keratuga-container img {
+  width: 30rem;
+}
+
+.keratina-container .keratina-half.right {
+  padding-left: 32px;
+}
+
+.keratina-container .keratina-half.right .keratina-half-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.keratina-container .keratina-half.right .keratina-half-title h2 {
+  width: 100%;
+  text-align: end;
+  margin: 0px;
+  color: white !important;
+  font-family: 'Satisfy', cursive;
+}
+
+.keratina-container .keratina-half.right .keratina-half-title hr {
+  margin: 0;
+  width: 25%;
+}
+
+.about-container .about-half .button-container,
+.keratina-container .keratina-half .button-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keratina-container .keratina-half .button-container p,
+.keratina-container .keratina-half .button-container a {
+  margin: 0;
 }
 
 .button-container {
@@ -180,6 +248,14 @@ div#contact {
   padding: 2% 22% 0% 22%;
 }
 
+div#contact.opossum {
+  background: #2b2b2b;
+}
+
+div#contact.opossum h2 {
+  color: white !important;
+}
+
 #contact .copyright {
   margin-top: 25px;
   text-align: center;
@@ -203,6 +279,9 @@ div#contact {
   margin-bottom: 15px;
   text-decoration: none;
   transition: all 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .half-contact a:hover,
